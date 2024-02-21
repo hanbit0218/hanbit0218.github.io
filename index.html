@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
+    <title>David's Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
   </head>
   <body>
     <nav id="desktop-nav">
-      <div class="logo">David Song</div>
+      <div class="nav-logo">David Song</div>
       <div>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
@@ -49,7 +49,7 @@
             class="btn btn-color-2"
             onclick="window.open('./assets/STEMJobFairResume.pdf')"
           >
-            Download CV
+            Download C.V.
           </button>
           <button class="btn btn-color-1" onclick="location.href='./#contact'">
             Contact Info
@@ -90,6 +90,7 @@
         </div>
         <div class="about-details-container">
           <div class="about-containers">
+            
             <div class="details-container">
               <img
                 src="./assets/experience.png"
@@ -99,6 +100,7 @@
               <h3>Experience</h3>
               <p>Java (5 years) <br />Python + SQL (3 years)</p>
             </div>
+            
             <div class="details-container">
               <img
                 src="./assets/education.png"
@@ -106,8 +108,9 @@
                 class="icon"
               />
               <h3>Education</h3>
-              <p>High School Diploma @ TKA (2017 - 2021)</br>B.S. Computer Science @ SJSU (2021 - 2025)</p>
-            </div>
+              <p>High School Diploma @ <a href="https://www.tka.org/" target="_blank">TKA</a> (2017 - 2021)</br>B.S. Computer Science @ <a href="https://www.sjsu.edu/" target="_blank">SJSU</a> (2021 - 2025)</p>
+            </div>            
+
           </div>
           <div class="text-container">
             <p>
@@ -257,7 +260,89 @@
         onclick="location.href='./#projects'"
       />
     </section>
+
+
+
+
     <section id="projects">
+      <p class="section__text__p1">Here are a few of my most recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Energy Dashboard</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Hydro Sense</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-3.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Simulation Station</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
       <img
         src="./assets/arrow.png"
         alt="Arrow icon"
@@ -265,6 +350,12 @@
         onclick="location.href='./#contact'"
       />
     </section>
+
+
+
+
+
+
     <section id="contact">
       <p class="section__text__p1">Nice to Meet You ᡣ • . • 𐭩 ♡</p>
       <h1 class="title">Let's Get in Touch!</h1>

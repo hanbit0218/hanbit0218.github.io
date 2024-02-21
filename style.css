@@ -34,9 +34,20 @@ nav,
 }
 
 nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 1000;
   justify-content: space-around;
   align-items: center;
-  height: 17vh;
+  height: 13vh;
+  border-bottom: 2px solid black;
+}
+
+.nav-logo {
+  font-size: 3rem;
 }
 
 .nav-links {
