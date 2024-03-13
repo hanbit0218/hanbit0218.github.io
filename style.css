@@ -1,3 +1,9 @@
+.madimi_one_regular {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}  
+
 .parent {
     display: flex;
     flex-direction: column;
@@ -5,12 +11,13 @@
     height: 100rem;
     background-color:aliceblue;
     border: 1px solid black;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .name {
     display: flex;
     margin: 20px;
+    margin-bottom: 15px;
     justify-content: center;
     align-items: center;
     font-size: 3rem;
@@ -19,8 +26,17 @@
 .contacts {
     display: flex;
     flex-direction: row;
-    height: 50px;
+    height: 3%;
     padding-left: 10px;
     padding-right: 10px;
+    padding-bottom: 10px;
     justify-content: center;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: row;
+
 }
