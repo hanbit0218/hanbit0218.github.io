@@ -4,13 +4,20 @@
     font-style: normal;
 }  
 
+.speech-font {
+    font-family: "Micro 5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+}  
+
 .parent {
     display: flex;
     flex-direction: column;
     width: 100%;
     height: 100rem;
-    background-color:aliceblue;
-    border: 1px solid black;
+    background-color:rgb(219, 239, 255);
+    border: 0px solid black;
     border-radius: 10px;
 }
 
@@ -31,12 +38,17 @@
     padding-right: 10px;
     padding-bottom: 10px;
     justify-content: center;
-    border: 1px solid black;
+    border: 0px solid black;
     border-radius: 10px;
 }
 
 .about-me {
     display: flex;
-    flex-direction: row;
-
+    flex-direction: column;
+    justify-content: left;
+    
+    text-align: justify;
+    
+    border: 0px solid black;
+    border-radius: 10px;
 }
