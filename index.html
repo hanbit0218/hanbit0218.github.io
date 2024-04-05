@@ -1,54 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Micro+5&display=swap" rel="stylesheet">
-    <title>Document</title>
-</head>
-<body>
-    <div class="parent bubble-font">
-        <!-- NAME -->
-        <h1 class="name">DAVID SONG</h1>
-        
-        <!-- CONTACTS -->
-        <div class="contacts">
-            <h4><a href="mailto:han02bit18@gmail.com" target="_blank">Email</a></h4>
-            <h4>&nbsp&nbsp | &nbsp&nbsp</h4>
-            <h4>(669) 236 - 1331</h4>
-            <h4>&nbsp&nbsp | &nbsp&nbsp</h4>
-            <h4><a href="https://www.linkedin.com/in/davidthesong" target="_blank">LinkedIn</a></h4>
-            <h4>&nbsp&nbsp | &nbsp&nbsp</h4>
-            <h4><a href="https://github.com/hanbit0218" target="_blank">GitHub</a></h4>
+<html>
+    <head>
+        <title>David's Portfolio</title>
+        <link rel="stylesheet" href="/styles/pages.css">
+        <link rel="stylesheet" href="/styles/styles.css">
+        <link rel="stylesheet" href="/styles/header.css">
+        <link rel="stylesheet" href="/styles/about.css">
+
+    </head>
+
+    <body>
+        <nav>
+            <ul class="sidebar">
+                <li onclick=hideSidebar()><a href="#"><img src="/public/close.png"></a></li>
+                <li onclick=hideSidebar()><a href="#home">who am i?</a></li>
+                <li onclick=hideSidebar()><a href="#about">about me</a></li>
+                <li onclick=hideSidebar()><a href="#projects">my projects</a></li>
+                <li onclick=hideSidebar()><a href="#hobbies">in my free time...</a></li>
+                <li onclick=hideSidebar()><a href="#contacts">wanna chat?</a></li>
+            </ul>
+            <ul>
+                <li><a href="#home">PORTFOLIO</a></li>
+                <li class="hideOnMobile"><a href="#home">who am i?</a></li>
+                <li class="hideOnMobile"><a href="#about">about me</a></li>
+                <li class="hideOnMobile"><a href="#projects">my projects</a></li>
+                <li class="hideOnMobile"><a href="#hobbies">in my free time...</a></li>
+                <li class="hideOnMobile"><a href="#contacts">wanna chat?</a></li>
+                <li class="menu-button" onclick=showSidebar()><a href="#"><img src="/public/menu.png"></a></li>
+            </ul>
+        </nav>
+        <div id="home" class="home">
+            <div class="container">
+                <h1 style="margin-bottom: 15px; text-align: center;">HELLO</h1>
+                <h2 style="margin-bottom: 15px; text-align: center;">my name is</h2>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="my-name">David Song</a>
+                <h3 class="misc-info">feel free to scroll and check out my portfolio</h3>
+                <h3 class="misc-info">use arrows on the right or navbar at top of page to scroll</h3>
+            </div>
+            <div class="home-down-div">
+                <a href="#about"><img class="home-down" src="/public/down-arrow.png" alt="down" width="30" height="30"></a>
+            </div>
         </div>
 
-        <!-- ABOUT ME -->
-        <div class="about-me">
-            <h1 style="margin-left: 20px; margin-bottom:3px;">ABOUT ME</h1>
-            <h3 style="margin-left: 80px; margin-right: 40px; margin-top:3px; margin-bottom:2px;">Hello! My name is <i>David Song</i>. I am currently a third year attending <i><span style="color: #0055A2;">San</span> <span style="color: #E5A823;">José</span> <span style="color: #0055A2;">State</span> <span style="color: #E5A823;">University</span></i>. I am majoring in <i>Computer Science</i> and minoring in <i>Digital Media Art</i>. </h3>
-            <h2 style="margin-left: 50px; margin-top:3px; margin-bottom:2px;">A Glimpse Into My Academic Journey: </h2>
-            <h3 style="margin-left: 80px; margin-right: 40px; margin-top:3px; margin-bottom:2px;">I initially chose Computer Science because of how much people praised the pay. However, I learned that this pay was not promised. I also started asking myself...</h3>
-            <h3 class="speech-font" style="margin-left: 110px; margin-top:3px; margin-bottom:2px; text-align: left; color: rgb(88, 118, 255);">"What really is Computer Science?"</h3>
-            <h3 style="margin-left: 80px; margin-right: 40px; margin-top:3px; margin-bottom:2px;">I could not come up with an answer besides...</h4>
-            <h3 class="speech-font" style="margin-left: 110px; margin-top:3px; margin-bottom:2px; text-align: left; color: rgb(88, 118, 255);">"...the study of computers..."</h3>
-            <h3 style="margin-left: 80px; margin-right: 40px; margin-top:3px; margin-bottom:2px;">It was then that I realized truly how broad the field of Computer Science is. </h3>
+        <div id="about" class="about">
+            <div class="about-container">
+                <div class="section">
+                    <h2>major</h2>
+                </div>
+            </div>
+            <div class="up-div">
+                <a href="#home"><img class="up" src="/public/up-arrow.png" alt="down" width="30" height="30"></a>
+            </div>
+            <div class="down-div">
+                <a href="#about"><img class="down" src="/public/down-arrow.png" alt="down" width="30" height="30"></a>
+            </div>
         </div>
 
-        <!-- PROJECTS -->
-
-
-        <!-- SKILLS (PROGRAMMING LANGUAGES / BACKEND / DATABASE MANAGEMENT / WEB DEVELOPMENT / VERSION CONTROL / CLOUD PLATFORMS / SOFT SKILLS) -->
-
-
-        <!--  -->
-
-    </div>
-
-</body>
+        <script src="script.js"></script>
+    </body>
 </html>

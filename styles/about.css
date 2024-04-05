@@ -1,0 +1,36 @@
+.about-container {
+  border: 5px solid white;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: top;
+
+  position: absolute;
+  top: 8vh;
+  bottom: 4vh;
+  left: 4vh;
+  right: 4vh;
+
+  padding: 15px;
+
+  border-radius: 0 30px 30px 30px;
+}
+
+.about-container a {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  text-decoration: none;
+  color: black;
+}
+
+.section {
+  width: 100%;
+  height: 20%;
+  border: 4px solid rgba(255, 255, 255, 0.6);
+  border-radius: 0px 20px 0px 0px;
+  padding: 15px;
+  background-color: rgba(255,255,255,0.1);
+  backdrop-filter: blur(2px);
+  box-shadow: -10px 0 10px rgba(0,0,0,0.1);
+}

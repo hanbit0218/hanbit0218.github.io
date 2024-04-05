@@ -1,0 +1,193 @@
+.container {
+  border: 5px solid white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  top: 8vh;
+  bottom: 4vh;
+  left: 4vh;
+  right: 4vh;
+
+  border-radius: 0 30px 30px 30px;
+}
+
+.container a {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  text-decoration: none;
+  color: black;
+}
+
+.home {
+  height: 100vh;
+  width: 100%;
+  border: 0px solid red;
+  background-color: transparent;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+}
+
+.my-name {
+  font-family: myFirstFontBold;
+  font-size: 50px;
+  margin-top: 3vh;
+  margin-bottom: 10vh;
+}
+
+.my-name, .misc-info {
+  background-color: rgba(255,255,255,0.1);
+  backdrop-filter: blur(2px);
+  box-shadow: -10px 0 10px rgba(0,0,0,0.1);
+  padding: 15px 30px 15px 30px;
+  border-radius: 100px;
+}
+
+.misc-info {
+  margin-bottom: 30px;
+}
+
+.about {
+  height: 100vh;
+  width: 100%;
+  border: 0px solid blue;
+  background-color: transparent;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+}
+
+.projects-page {
+  height: 100vh;
+  width: 100%;
+  border: 0px solid blue;
+  background-color: transparent;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-down {
+  border: 0px solid red;
+  width: 30px;
+  height: 20px;
+  margin: 0;
+  padding: 0;
+  border-radius: 15px;
+  margin-top: 3px;
+}
+
+.home-down-div {
+  border: 0px solid red;
+  position: absolute;
+
+  margin: 0;
+  padding: 0;
+
+  width: 60px;
+  height: 60px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  bottom: 45%;
+  right: 1.3vh;
+  background-color: white;
+  border-radius: 100px;
+}
+
+.home-down-div:hover {
+  background-color: rgb(243, 243, 243);
+}
+
+
+
+
+
+
+
+.down {
+  border: 0px solid red;
+  width: 30px;
+  height: 20px;
+  margin: 0;
+  padding: 0;
+  border-radius: 15px;
+  margin-top: 3px;
+}
+
+.down-div {
+  border: 0px solid red;
+  position: absolute;
+
+  margin: 0;
+  padding: 0;
+
+  width: 60px;
+  height: 60px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  bottom: 25%;
+  right: 1.3vh;
+  background-color: white;
+  border-radius: 100px;
+}
+
+.down-div:hover {
+  background-color: rgb(243, 243, 243);
+}
+
+.up {
+  border: 0px solid red;
+  width: 30px;
+  height: 20px;
+  margin: 0;
+  padding: 0;
+  border-radius: 15px;
+  margin-top: 3px;
+}
+
+.up-div {
+  border: 0px solid red;
+  position: absolute;
+
+  margin: 0;
+  padding: 0;
+
+  width: 60px;
+  height: 60px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  bottom: 65%;
+  right: 1.3vh;
+  background-color: white;
+  border-radius: 100px;
+}
+
+.up-div:hover {
+  background-color: rgb(243, 243, 243);
+}
